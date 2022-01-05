@@ -2,7 +2,7 @@
 
 ### Game Developers Conference 2022 Webiste.
 
-![screenshot]()
+![screenshot](images/screenshot.png)
 
 ### Setup
 
