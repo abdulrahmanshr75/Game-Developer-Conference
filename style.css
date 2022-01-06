@@ -235,7 +235,7 @@ header {
 
 .item-title {
   color: #ec5242;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: bold;
   margin-left: 8px;
 }
@@ -456,6 +456,22 @@ a {
   border-top: 1px solid #333;
 }
 
+.footer-content-about {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #272a31;
+  border-top: 1px solid #333;
+}
+
+.footer-text-about {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
 .footer-text {
   font-size: 15px;
   margin-left: 10px;
@@ -667,5 +683,11 @@ a {
   .blck-nav-text {
     color: #fff;
     margin: 0 5px;
+  }
+
+  .speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
   }
 }

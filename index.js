@@ -47,8 +47,8 @@ const data = [{
 
 const cards = document.querySelector('.speakers');
 for (let i = 0; i < data.length; i += 1) {
-  const Card = document.createElement('div');
-  Card.className = 'card';
+  const card = document.createElement('div');
+  card.className = 'card';
   const datas = `
   <div>
   <img src="${data[i].image}" alt="speaker">
@@ -60,6 +60,6 @@ for (let i = 0; i < data.length; i += 1) {
   </div>
   </div>
   `;
-  Card.innerHTML = datas;
-  cards.appendChild(Card);
+  card.innerHTML = datas;
+  cards.appendChild(card);
 }
