@@ -3,6 +3,15 @@
   src: url(fonts/Cocogoose_trial.otf);
 }
 
+* {
+  overflow: hidden;
+}
+
+html {
+  overflow: scroll;
+  width: 100%;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -215,6 +224,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 90%;
 }
 
 .item {
