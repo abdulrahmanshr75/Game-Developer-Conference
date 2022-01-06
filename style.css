@@ -52,6 +52,7 @@ header {
   text-decoration: none;
   color: #272a31;
 }
+
 .menu-link:hover {
   color: #ec5242;
 }
@@ -96,6 +97,7 @@ header {
   align-items: center;
   width: 100%;
 }
+
 .card img {
   width: 100%;
   margin-right: 30px;
@@ -510,6 +512,7 @@ a {
     display: block;
     margin: 0 10px;
   }
+
   .navbar-links li a:hover {
     color: #ec5242;
     display: block;
@@ -664,14 +667,5 @@ a {
   .blck-nav-text {
     color: #fff;
     margin: 0 5px;
-  }
-
-  .third-section {
-    height: 170vh;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
   }
 }
