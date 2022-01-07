@@ -4,7 +4,7 @@
 }
 
 * {
-  overflow: hidden;
+  box-sizing: border-box;
 }
 
 html {
@@ -135,6 +135,7 @@ header {
   height: 105vh;
   background-image: url(images/background.jpg);
   background-size: cover;
+  overflow: hidden;
 }
 
 .first-content {
@@ -205,6 +206,8 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
+  width: 100%;
 }
 
 .text4 {
@@ -224,7 +227,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
 }
 
 .item {
@@ -258,7 +261,6 @@ header {
 }
 
 .menu-bar {
-  position: relative;
   left: 25px;
 }
 
@@ -501,6 +503,29 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .flexbox {
+    flex-direction: row;
+    height: 50vh;
+    width: 100%;
+    padding: 5px;
+    overflow-x: hidden;
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    max-width: 20%;
+    margin: 5px;
+  }
+
+  .item p {
+    width: 100%;
+    font-size: 10px;
+    font-weight: normal;
+  }
+
   .menu-bar {
     display: none;
   }
@@ -605,11 +630,6 @@ a {
     height: auto;
     margin-left: 14px;
     width: 550px;
-  }
-
-  .flexbox {
-    flex-direction: row;
-    height: 50vh;
   }
 
   .item {
