@@ -516,8 +516,9 @@ a {
     align-items: center;
     justify-content: center;
     height: 150px;
-    max-width: 20%;
     margin: 5px;
+    width: 20%;
+    max-width: 180px;
   }
 
   .item p {
