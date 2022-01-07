@@ -598,7 +598,7 @@ a {
 
   .text {
     background-image: linear-gradient(180deg, #fd1900, #f06657, #333);
-    font-size: 35px;
+    font-size: 45px;
     margin-left: 50px;
   }
 
@@ -611,6 +611,8 @@ a {
     font-weight: bold;
     font-size: 22px;
     text-align: center;
+    border: 3px solid #272a31;
+    padding: 5px;
   }
 
   .text3 {
